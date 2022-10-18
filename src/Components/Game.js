@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
 import CardContainer from "./CardContainer";
+import NavBar from "./NavBar";
+
+import '../Styles/game.css';
 
 const Game = () => {
 
@@ -37,12 +40,9 @@ const Game = () => {
     }, [score])
 
     return (
-        <div>
-            Game Components
-            <br></br>
-            score: {score}
-            <br></br>
-            high score: {highScore}
+        <div className="gameboard">
+            <NavBar score={score} highScore={highScore} />
+
             <CardContainer 
                 updateCurrentCards={updateCurrentCards}
                 />
