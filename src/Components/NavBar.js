@@ -6,7 +6,7 @@ const NavBar = ({score, highScore}) => {
     return(
         <div className="nav">
             <div className="logo"></div>
-            <div className="tab">
+            <div className="tab tab-info">
                 <span className="tab-text">Info</span>
                 <span className="tab-bar"></span>
             </div>

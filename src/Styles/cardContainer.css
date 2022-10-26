@@ -2,5 +2,7 @@
     display: grid; 
     justify-content: space-around;
     align-items: center;
-    grid-template-columns: repeat(minmax(auto,5),200px);
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    gap: 1rem;
 }

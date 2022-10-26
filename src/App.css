@@ -1,16 +1,24 @@
+
 body {
   position: relative;
+  min-height: 100vh;
+  min-width: 100vw;
+}#root {
+  position: relative;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 
 
-body::after {
+#root::after {
   content: '';
   position: absolute;
   top:0;
-  height: 100vh;
-  width: 100vw;
-  background-image: url('./Images/harvester-before.jpg');
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url('../public/Images/harvester-before.jpg');
   opacity: 0.5;
   z-index: -100;
 

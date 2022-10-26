@@ -1,8 +1,12 @@
 .nav{display:flex; margin-left: 5vw;}
 .logo {
     background: #B93038;
-    height: 15vh; 
-    width: 15vh;
+    height: 15vw; 
+    width: 15vw;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 150px;
+    max-height: 150px;
     transform: rotate(45deg);
     position: relative;
 }
@@ -14,7 +18,7 @@
     left: 0;
     height: 100%; 
     width: 100%; 
-    background-image: url('../Images/apex.png');
+    background-image: url('../../public/Images/apex.png');
     background-repeat: no-repeat;
     background-size: 50% 50%;
     background-position: 50% 50%;
@@ -26,17 +30,21 @@
     box-sizing: border-box;
     background: #D9D9D9;
     border: 1px solid black;
-    height: 7.5vh; 
-    width: 25vh;
+    height: 7.5vw; 
+    width: 25vw;
+    min-height: 50px;
+    max-height: 75px;
+    max-width: 200px;
     position: relative;
     transform: skew(45deg) translateX(-0.5vw);
     color: white;
+    margin-left: -2px
 }
 
 .tab-text {
     content: '';
     position: absolute; 
-    top: 25%; 
+    top: calc(50% - 0.75rem);
     left: 50%;
     transform: skew(-45deg) translateX(-50%);
 }
@@ -59,4 +67,14 @@
 
 .tab-bar-text {
     transform: skew(-45deg) translateX(-50%);
+}
+
+@media screen and (max-width: 500px) {
+    .tab-text {
+        top: 0px;
+    }
+
+    .tab-info {
+        display: none;
+    }
 }

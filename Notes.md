@@ -6,10 +6,11 @@
 - Navbar
   - [ ] modal pop-up for info
   - [ ] cursor: pointer on info as well
-  - [ ] careful of resizing - need a minimum height
+  - [x] careful of resizing - need a minimum height
 
 - CardsContainer
-  - [ ] grid wrap --- How do I this again? 
+  - [x] grid wrap --- How do I this again? 
+    - [x] repeat(auto-fill/fit, minmax(200px, 1fr))
   
   
 ## Additional ideas

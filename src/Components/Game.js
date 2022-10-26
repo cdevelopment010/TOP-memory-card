@@ -3,6 +3,7 @@ import CardContainer from "./CardContainer";
 import NavBar from "./NavBar";
 
 import '../Styles/game.css';
+import '../Styles/media-queries.css';
 
 const Game = () => {
 

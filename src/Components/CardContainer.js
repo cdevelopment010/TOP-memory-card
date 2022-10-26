@@ -4,11 +4,11 @@ import '../Styles/cardContainer.css';
 
 
 /***import images */
-import ash from '../Images/ash.png';
-import bangalore from '../Images/bangalore.png';
-import bloodhood from '../Images/bloodhound.png';
-import caustic from '../Images/caustic.png';
-import crypto from '../Images/crypto.png';
+// import ash from '../Images/ash.png';
+// import bangalore from '../Images/bangalore.png';
+// import bloodhood from '../Images/bloodhound.png';
+// import caustic from '../Images/caustic.png';
+// import crypto from '../Images/crypto.png';
 
 
 
@@ -25,23 +25,23 @@ const CardContainer = ({updateCurrentCards}) => {
     const [cards, setCards] = useState([
         {
             name: 'Ash',
-            link: ash
+            link: 'Images/ash.png'
         },
         {
             name: 'Bangalore',
-            link: bangalore
+            link: 'Images/Bangalore.png'
         },
         {
-            name: 'Bloodhood',
-            link: bloodhood
+            name: 'Bloodhound',
+            link: 'Images/bloodhound.png'
         },
         {
             name: 'Caustic',
-            link: caustic
+            link: 'Images/Caustic.png'
         },
         {
             name: 'Crypto',
-            link: crypto
+            link: 'Images/Crypto.png'
         }
 
     ]);
