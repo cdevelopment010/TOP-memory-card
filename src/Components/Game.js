@@ -10,6 +10,7 @@ const Game = () => {
     const [score, setScore] = useState(0); 
     const [highScore, setHighScore] = useState(0); 
     const [currentCards, setCurrentCards] = useState([]);
+    const [level, setLevel] = useState(5);
 
     const updateCurrentCards = (card) => {
         // console.log("updateCurrentCards");
@@ -20,6 +21,16 @@ const Game = () => {
             setScore(0);
         }
     }
+
+    const nextLevel = () => {
+        setLevel(level + 1);
+    }
+
+    useEffect(() => {
+        document.querySelector('#gameOver').classList.remove("d-grid");
+        setScore(0);
+        setCurrentCards([]);
+    }, [level])
 
     useEffect(() => { 
         //reset
@@ -46,6 +57,9 @@ const Game = () => {
 
             <CardContainer 
                 updateCurrentCards={updateCurrentCards}
+                highScore={highScore}
+                nextLevel={nextLevel}
+                level={level}
                 />
         </div>
     )

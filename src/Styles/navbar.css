@@ -37,7 +37,7 @@
     max-width: 200px;
     position: relative;
     transform: skew(45deg) translateX(-0.5vw);
-    color: white;
+    color: black;
     margin-left: -2px
 }
 
@@ -68,6 +68,39 @@
 .tab-bar-text {
     transform: skew(-45deg) translateX(-50%);
 }
+
+.tab-info {
+    cursor: pointer;
+}
+.tab-info:hover, .tab-info:focus {
+    font-weight: bold;
+}
+
+
+/**** MODAL ****/
+
+.modal {
+    display: none;
+    position: fixed; 
+    top:0; 
+    left: 0; 
+    bottom: 0;
+    right:0;
+    place-items: center;
+    background: rgba(0,0,0,0.5);
+}
+
+.modal-body {
+    background: white; 
+    border-radius: 10px;
+    padding: 20px; 
+    box-shadow: 4px 4px 4px 0 rgba(0,0,0,0.5);
+}
+
+.modal-body .h2 {
+    margin-bottom: 0;
+}
+
 
 @media screen and (max-width: 500px) {
     .tab-text {
