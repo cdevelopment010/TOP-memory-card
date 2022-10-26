@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/TOP-memory-card/static/css/main.947492df.css",
+    "main.js": "/TOP-memory-card/static/js/main.9c142c7c.js",
+    "static/js/787.d6a8b40f.chunk.js": "/TOP-memory-card/static/js/787.d6a8b40f.chunk.js",
+    "static/media/harvester-before.jpg": "/TOP-memory-card/static/media/harvester-before.0c3fb3327b33e8eb8a1c.jpg",
+    "index.html": "/TOP-memory-card/index.html",
+    "main.947492df.css.map": "/TOP-memory-card/static/css/main.947492df.css.map",
+    "main.9c142c7c.js.map": "/TOP-memory-card/static/js/main.9c142c7c.js.map",
+    "787.d6a8b40f.chunk.js.map": "/TOP-memory-card/static/js/787.d6a8b40f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.947492df.css",
+    "static/js/main.9c142c7c.js"
+  ]
+}
