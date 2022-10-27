@@ -7,7 +7,8 @@ img {
 
 .card {
     background: #B93038;
-    color: white; 
+    color: white;
+    text-shadow: 2px 2px#3A401A; 
     font-weight: bold;
     height: 300px; 
     width: 200px; 
@@ -19,6 +20,7 @@ img {
     box-shadow: 4px 5px 5px 2px rgba(0,0,0,0.25);
     transition: scale 0.2s;
     cursor: pointer;
+    padding-bottom: 10px;
 }
 
 .card:hover {

@@ -31,22 +31,23 @@
     background: #D9D9D9;
     border: 1px solid black;
     height: 7.5vw; 
-    width: 25vw;
+    width: 20vw;
     min-height: 50px;
     max-height: 75px;
     max-width: 200px;
     position: relative;
     transform: skew(45deg) translateX(-0.5vw);
     color: black;
-    margin-left: -2px
+    margin-left: -2px;
 }
 
 .tab-text {
     content: '';
     position: absolute; 
-    top: calc(50% - 0.75rem);
+    top: calc(50% - min(2vw,20px));
     left: 50%;
     transform: skew(-45deg) translateX(-50%);
+    font-size: min(2vw,20px);
 }
 
 .tab-bar {
@@ -69,7 +70,7 @@
     transform: skew(-45deg) translateX(-50%);
 }
 
-.tab-info {
+.tab-info, .logo {
     cursor: pointer;
 }
 .tab-info:hover, .tab-info:focus {

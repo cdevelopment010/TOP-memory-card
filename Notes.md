@@ -21,7 +21,7 @@
   - Not implementing this as I have gone with a level system
 - ~~Game over screen - congrats you've done it! :D~~
 - ~~restart option/next level~~
-- Links to the top right corner (YT, Twitch, Website & TOP)
+- ~~Links to the top right corner (YT, Twitch, Website & TOP)~~
 - 
 
 
