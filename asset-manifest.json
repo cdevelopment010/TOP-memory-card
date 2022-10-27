@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/TOP-memory-card/static/css/main.0a641c2d.css",
-    "main.js": "/TOP-memory-card/static/js/main.6d8d8c2a.js",
+    "main.css": "/TOP-memory-card/static/css/main.8aab40ce.css",
+    "main.js": "/TOP-memory-card/static/js/main.9dbc5f16.js",
     "static/js/787.d6a8b40f.chunk.js": "/TOP-memory-card/static/js/787.d6a8b40f.chunk.js",
     "static/media/harvester-before.jpg": "/TOP-memory-card/static/media/harvester-before.0c3fb3327b33e8eb8a1c.jpg",
     "index.html": "/TOP-memory-card/index.html",
-    "main.0a641c2d.css.map": "/TOP-memory-card/static/css/main.0a641c2d.css.map",
-    "main.6d8d8c2a.js.map": "/TOP-memory-card/static/js/main.6d8d8c2a.js.map",
+    "main.8aab40ce.css.map": "/TOP-memory-card/static/css/main.8aab40ce.css.map",
+    "main.9dbc5f16.js.map": "/TOP-memory-card/static/js/main.9dbc5f16.js.map",
     "787.d6a8b40f.chunk.js.map": "/TOP-memory-card/static/js/787.d6a8b40f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a641c2d.css",
-    "static/js/main.6d8d8c2a.js"
+    "static/css/main.8aab40ce.css",
+    "static/js/main.9dbc5f16.js"
   ]
 }
