@@ -64,7 +64,9 @@ const CardContainer = ({updateCurrentCards, highScore, nextLevel, level}) => {
         }
     }, [highScore])
 
-
+    useEffect(()=> {
+        randomCardOrder();
+    })
 
 
     return (
@@ -76,7 +78,7 @@ const CardContainer = ({updateCurrentCards, highScore, nextLevel, level}) => {
                                 cardText={x.name}
                                 cardImg={x.link}
                                 updateCurrentCards={updateCurrentCards}
-                                randomCardOrder={randomCardOrder}/>
+                                />
                         </div>
                 })}
             </div>
